@@ -1,0 +1,632 @@
+.projeto,
+.projeto * {
+  box-sizing: border-box;
+}
+.projeto {
+  background: var(--base-gray-200, #16181d);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-end;
+  position: relative;
+  overflow: hidden;
+}
+.intro {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 682px;
+  position: relative;
+  overflow: hidden;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1040px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 120px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 680px;
+  position: relative;
+}
+.avatar {
+  flex-shrink: 0;
+  width: 112px;
+  height: 112px;
+  position: relative;
+  overflow: hidden;
+}
+.user {
+  position: absolute;
+  inset: 0;
+}
+.border {
+  border-radius: 999px;
+  border-style: solid;
+  border-color: var(--main-red, #e3646e);
+  border-width: 2px;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  left: 8px;
+  top: 8px;
+}
+.image {
+  border-radius: 9999px;
+  width: 87.27px;
+  height: 87.27px;
+  position: absolute;
+  left: 12.36px;
+  top: 12.36px;
+  object-fit: cover;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou {
+  text-align: center;
+  font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
+  font-size: var(--subtitle-font-size, 20px);
+  line-height: var(--subtitle-line-height, 120%);
+  font-weight: var(--subtitle-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou-span {
+  color: var(--base-gray-500, #c0c4ce);
+  font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
+  font-size: var(--subtitle-font-size, 20px);
+  line-height: var(--subtitle-line-height, 120%);
+  font-weight: var(--subtitle-font-weight, 400);
+}
+.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou-span2 {
+  color: var(--main-red, #e3646e);
+  font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
+  font-size: var(--subtitle-font-size, 20px);
+  line-height: var(--subtitle-line-height, 120%);
+  font-weight: var(--subtitle-font-weight, 400);
+}
+.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou-span3 {
+  color: var(--base-gray-500, #c0c4ce);
+  font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
+  font-size: var(--subtitle-font-size, 20px);
+  line-height: var(--subtitle-line-height, 120%);
+  font-weight: var(--subtitle-font-weight, 400);
+}
+.desenvolvedor-full-stack {
+  color: var(--base-gray-600, #e2e4e9);
+  text-align: center;
+  font-family: var(--title-lg-font-family, "Asap-Bold", sans-serif);
+  font-size: var(--title-lg-font-size, 56px);
+  line-height: var(--title-lg-line-height, 120%);
+  font-weight: var(--title-lg-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.transformo-necessidades-em-aplica-es-reais-evolventes-e-funcionais-desenvolvo-sistemas-atrav-s-da-minha-paix-o-pela-tecnologia-contribuindo-com-solu-es-inovadoras-e-eficazes-para-desafios-complexos {
+  color: var(--base-gray-400, #878ea1);
+  text-align: center;
+  font-family: var(--text-sm-font-family, "MavenPro-Regular", sans-serif);
+  font-size: var(--text-sm-font-size, 14px);
+  line-height: var(--text-sm-line-height, 140%);
+  font-weight: var(--text-sm-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.tags {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-button {
+  background: var(--main-green, #82bc4f);
+  border-radius: 999px;
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.git-hub {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-md-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-md-font-size, 16px);
+  line-height: var(--tag-md-line-height, 120%);
+  font-weight: var(--tag-md-font-weight, 700);
+  position: relative;
+}
+.social-button2 {
+  background: var(--main-purple, #bb72e9);
+  border-radius: 999px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.php {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-md-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-md-font-size, 16px);
+  line-height: var(--tag-md-line-height, 120%);
+  font-weight: var(--tag-md-font-weight, 700);
+  position: relative;
+}
+.social-button3 {
+  background: var(--main-blue, #3996db);
+  border-radius: 999px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.css {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-md-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-md-font-size, 16px);
+  line-height: var(--tag-md-line-height, 120%);
+  font-weight: var(--tag-md-font-weight, 700);
+  position: relative;
+}
+.social-button4 {
+  background: var(--main-red, #e3646e);
+  border-radius: 999px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.html {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-md-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-md-font-size, 16px);
+  line-height: var(--tag-md-line-height, 120%);
+  font-weight: var(--tag-md-font-weight, 700);
+  position: relative;
+}
+.social-button5 {
+  background: var(--main-yellow, #eabd5f);
+  border-radius: 999px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  padding: 4px 12px 4px 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.javascript {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-md-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-md-font-size, 16px);
+  line-height: var(--tag-md-line-height, 120%);
+  font-weight: var(--tag-md-font-weight, 700);
+  position: relative;
+}
+.projects {
+  padding: 72px 120px 144px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.header2 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 1040px;
+  position: relative;
+}
+.meu-trabalho {
+  color: var(--main-red, #e3646e);
+  text-align: center;
+  font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
+  font-size: var(--subtitle-font-size, 20px);
+  line-height: var(--subtitle-line-height, 120%);
+  font-weight: var(--subtitle-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.veja-os-projetos-em-destaque {
+  color: var(--base-gray-600, #e2e4e9);
+  text-align: center;
+  font-family: var(--title-md-font-family, "Asap-Bold", sans-serif);
+  font-size: var(--title-md-font-size, 24px);
+  line-height: var(--title-md-line-height, 120%);
+  font-weight: var(--title-md-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.grid {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-shrink: 0;
+  width: 1040px;
+  position: relative;
+}
+.project-card {
+  background: var(--base-gray-300, #292c34);
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 508px;
+  position: relative;
+  overflow: hidden;
+}
+.image2 {
+  border-radius: 8px;
+  flex-shrink: 0;
+  width: 224px;
+  height: 156px;
+  position: relative;
+  object-fit: cover;
+}
+.text2 {
+  padding: 8px 4px 8px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title2 {
+  color: var(--base-gray-600, #e2e4e9);
+  text-align: left;
+  font-family: var(--title-sm-font-family, "Asap-Bold", sans-serif);
+  font-size: var(--title-sm-font-size, 16px);
+  line-height: var(--title-sm-line-height, 120%);
+  font-weight: var(--title-sm-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.lorem-ipsum-dolor-sit-amet-consectetur-viverra-sed-laoreet-eu-ornare {
+  color: var(--base-gray-500, #c0c4ce);
+  text-align: left;
+  font-family: var(--text-sm-font-family, "MavenPro-Regular", sans-serif);
+  font-size: var(--text-sm-font-size, 14px);
+  line-height: var(--text-sm-line-height, 140%);
+  font-weight: var(--text-sm-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+  height: 64px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.tags2 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-button6 {
+  background: var(--main-purple, #bb72e9);
+  border-radius: 999px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.php2 {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-sm-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-sm-font-size, 12px);
+  line-height: var(--tag-sm-line-height, 120%);
+  font-weight: var(--tag-sm-font-weight, 700);
+  position: relative;
+}
+.social-button7 {
+  background: var(--main-blue, #3996db);
+  border-radius: 999px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.css2 {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-sm-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-sm-font-size, 12px);
+  line-height: var(--tag-sm-line-height, 120%);
+  font-weight: var(--tag-sm-font-weight, 700);
+  position: relative;
+}
+.social-button8 {
+  background: var(--main-red, #e3646e);
+  border-radius: 999px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.html2 {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-sm-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-sm-font-size, 12px);
+  line-height: var(--tag-sm-line-height, 120%);
+  font-weight: var(--tag-sm-font-weight, 700);
+  position: relative;
+}
+.social-button9 {
+  background: var(--main-yellow, #eabd5f);
+  border-radius: 999px;
+  padding: 2px 8px 2px 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.javascript2 {
+  color: var(--base-gray-200, #16181d);
+  text-align: center;
+  font-family: var(--tag-sm-font-family, "Inconsolata-Bold", sans-serif);
+  font-size: var(--tag-sm-font-size, 12px);
+  line-height: var(--tag-sm-line-height, 120%);
+  font-weight: var(--tag-sm-font-weight, 700);
+  position: relative;
+}
+.contact {
+  padding: 128px 120px 200px 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.header3 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.contato {
+  color: var(--main-purple, #bb72e9);
+  text-align: center;
+  font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
+  font-size: var(--subtitle-font-size, 20px);
+  line-height: var(--subtitle-line-height, 120%);
+  font-weight: var(--subtitle-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.gostou-do-meu-trabalho {
+  color: var(--base-gray-600, #e2e4e9);
+  text-align: center;
+  font-family: var(--title-md-font-family, "Asap-Bold", sans-serif);
+  font-size: var(--title-md-font-size, 24px);
+  line-height: var(--title-md-line-height, 120%);
+  font-weight: var(--title-md-font-weight, 700);
+  position: relative;
+  align-self: stretch;
+}
+.entre-em-contato-ou-acompanhe-as-minhas-redes-sociais {
+  color: var(--base-gray-500, #c0c4ce);
+  text-align: center;
+  font-family: var(--text-md-font-family, "MavenPro-Regular", sans-serif);
+  font-size: var(--text-md-font-size, 16px);
+  line-height: var(--text-md-line-height, 140%);
+  font-weight: var(--text-md-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.social-button10 {
+  background: var(--base-gray-300, #292c34);
+  border-radius: 8px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 400px;
+  position: relative;
+  overflow: hidden;
+}
+.linkedin-logo {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.linkedin {
+  color: var(--base-gray-500, #c0c4ce);
+  text-align: left;
+  font-family: "MavenPro-Medium", sans-serif;
+  font-size: 16px;
+  line-height: 140%;
+  font-weight: 500;
+  position: relative;
+  flex: 1;
+}
+.arrow-up-right {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.instagram-logo {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.arrow-up-right2 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.github-logo {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.arrow-up-right3 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
+.envelope-simple {
+  flex-shrink: 0;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  overflow: visible;
+}
+.arrow-up-right4 {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  overflow: visible;
+}
