@@ -1,3 +1,28 @@
+button,
+   input,
+   select,
+   h1,
+   h2,
+   h3,
+   h4,
+   h5,
+   * {
+       box-sizing: border-box;
+       margin: 0;
+       padding: 0;
+       border: none;
+       text-decoration: none;
+       background: none;
+   
+       -webkit-font-smoothing: antialiased;
+   }
+   
+   menu, ol, ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+   }
+
 .projeto,
 .projeto * {
   box-sizing: border-box;
@@ -92,7 +117,7 @@
   flex-shrink: 0;
   position: relative;
 }
-.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou {
+.name {
   text-align: center;
   font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
   font-size: var(--subtitle-font-size, 20px);
@@ -101,28 +126,28 @@
   position: relative;
   align-self: stretch;
 }
-.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou-span {
+.name-span {
   color: var(--base-gray-500, #c0c4ce);
   font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
   font-size: var(--subtitle-font-size, 20px);
   line-height: var(--subtitle-line-height, 120%);
   font-weight: var(--subtitle-font-weight, 400);
 }
-.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou-span2 {
+.name-span2 {
   color: var(--main-red, #e3646e);
   font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
   font-size: var(--subtitle-font-size, 20px);
   line-height: var(--subtitle-line-height, 120%);
   font-weight: var(--subtitle-font-weight, 400);
 }
-.hello-world-meu-nome-vinicius-gasparello-da-silva-e-sou-span3 {
+.name-span3 {
   color: var(--base-gray-500, #c0c4ce);
   font-family: var(--subtitle-font-family, "Inconsolata-Regular", sans-serif);
   font-size: var(--subtitle-font-size, 20px);
   line-height: var(--subtitle-line-height, 120%);
   font-weight: var(--subtitle-font-weight, 400);
 }
-.desenvolvedor-full-stack {
+.cargo {
   color: var(--base-gray-600, #e2e4e9);
   text-align: center;
   font-family: var(--title-lg-font-family, "Asap-Bold", sans-serif);
@@ -131,8 +156,9 @@
   font-weight: var(--title-lg-font-weight, 700);
   position: relative;
   align-self: stretch;
+  width: max-content;
 }
-.transformo-necessidades-em-aplica-es-reais-evolventes-e-funcionais-desenvolvo-sistemas-atrav-s-da-minha-paix-o-pela-tecnologia-contribuindo-com-solu-es-inovadoras-e-eficazes-para-desafios-complexos {
+.subtitle {
   color: var(--base-gray-400, #878ea1);
   text-align: center;
   font-family: var(--text-sm-font-family, "MavenPro-Regular", sans-serif);
@@ -173,22 +199,6 @@
   font-weight: var(--tag-md-font-weight, 700);
   position: relative;
 }
-.social-button2 {
-  background: var(--main-purple, #bb72e9);
-  border-radius: 999px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  padding: 4px 12px 4px 12px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
 .php {
   color: var(--base-gray-200, #16181d);
   text-align: center;
@@ -197,22 +207,6 @@
   line-height: var(--tag-md-line-height, 120%);
   font-weight: var(--tag-md-font-weight, 700);
   position: relative;
-}
-.social-button3 {
-  background: var(--main-blue, #3996db);
-  border-radius: 999px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  padding: 4px 12px 4px 12px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
 }
 .css {
   color: var(--base-gray-200, #16181d);
@@ -223,22 +217,6 @@
   font-weight: var(--tag-md-font-weight, 700);
   position: relative;
 }
-.social-button4 {
-  background: var(--main-red, #e3646e);
-  border-radius: 999px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  padding: 4px 12px 4px 12px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
 .html {
   color: var(--base-gray-200, #16181d);
   text-align: center;
@@ -247,22 +225,6 @@
   line-height: var(--tag-md-line-height, 120%);
   font-weight: var(--tag-md-font-weight, 700);
   position: relative;
-}
-.social-button5 {
-  background: var(--main-yellow, #eabd5f);
-  border-radius: 999px;
-  border-style: solid;
-  border-color: #000000;
-  border-width: 1px;
-  padding: 4px 12px 4px 12px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
 }
 .javascript {
   color: var(--base-gray-200, #16181d);
