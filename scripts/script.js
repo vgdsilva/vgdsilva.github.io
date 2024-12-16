@@ -17,7 +17,7 @@ function criarTags(lista) {
         link.href = "#"; // Define o link (pode ser customizado)
         link.style.backgroundColor = item.cor; // Define a cor de fundo
         link.style.color = "white";
-        link.className = "social-button";
+        link.className = "tag";
         // link.style.color = "#fff"; // Cor do texto (pode ajustar conforme necessário)
         // link.style.padding = "10px"; // Adiciona padding para melhor visualização
         // link.style.margin = "5px"; // Espaçamento entre os links
