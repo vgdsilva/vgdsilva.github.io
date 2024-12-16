@@ -1,3 +1,14 @@
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: v) {  }
+
+
 button,
    input,
    select,
@@ -364,19 +375,7 @@ button,
   flex-shrink: 0;
   position: relative;
 }
-.social-button6 {
-  background: var(--main-purple, #bb72e9);
-  border-radius: 999px;
-  padding: 2px 8px 2px 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
+
 .php2 {
   color: var(--base-gray-200, #16181d);
   text-align: center;
@@ -385,19 +384,6 @@ button,
   line-height: var(--tag-sm-line-height, 120%);
   font-weight: var(--tag-sm-font-weight, 700);
   position: relative;
-}
-.social-button7 {
-  background: var(--main-blue, #3996db);
-  border-radius: 999px;
-  padding: 2px 8px 2px 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
 }
 .css2 {
   color: var(--base-gray-200, #16181d);
@@ -408,19 +394,6 @@ button,
   font-weight: var(--tag-sm-font-weight, 700);
   position: relative;
 }
-.social-button8 {
-  background: var(--main-red, #e3646e);
-  border-radius: 999px;
-  padding: 2px 8px 2px 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
 .html2 {
   color: var(--base-gray-200, #16181d);
   text-align: center;
@@ -430,19 +403,7 @@ button,
   font-weight: var(--tag-sm-font-weight, 700);
   position: relative;
 }
-.social-button9 {
-  background: var(--main-yellow, #eabd5f);
-  border-radius: 999px;
-  padding: 2px 8px 2px 8px;
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  position: relative;
-  overflow: hidden;
-}
+
 .javascript2 {
   color: var(--base-gray-200, #16181d);
   text-align: center;
@@ -512,20 +473,7 @@ button,
   flex-shrink: 0;
   position: relative;
 }
-.social-button10 {
-  background: var(--base-gray-300, #292c34);
-  border-radius: 8px;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  gap: 12px;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  width: 400px;
-  position: relative;
-  overflow: hidden;
-}
+
 .linkedin-logo {
   flex-shrink: 0;
   width: 28px;
@@ -557,24 +505,10 @@ button,
   position: relative;
   overflow: visible;
 }
-.arrow-up-right2 {
-  flex-shrink: 0;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  overflow: visible;
-}
 .github-logo {
   flex-shrink: 0;
   width: 28px;
   height: 28px;
-  position: relative;
-  overflow: visible;
-}
-.arrow-up-right3 {
-  flex-shrink: 0;
-  width: 20px;
-  height: 20px;
   position: relative;
   overflow: visible;
 }
@@ -585,10 +519,10 @@ button,
   position: relative;
   overflow: visible;
 }
-.arrow-up-right4 {
-  flex-shrink: 0;
-  width: 20px;
-  height: 20px;
-  position: relative;
-  overflow: visible;
+
+@media screen and (max-width : 799px) {
+  .intro
+  {
+    width: 100%;
+  }
 }
